@@ -33,16 +33,16 @@ Please feel free to use a different markup language if you do not plan to run
 
 == Instructions
 
-# Digital ocean
+* Digital ocean
 
-# $ sudo service unicorn restart # restart rails
+* $ sudo service unicorn restart # restart rails
 
-# $ rsync -r . root@<server-IP>:/home/rails/rails_project # copy local files to the server!
+* $ rsync -r . root@<server-IP>:/home/rails/rails_project # copy local files to the server!
 
-# $ rake db:create
-# $ export APP_DATABASE_PASSWORD=mXkLTwuKRJ
-# $ bundle exec rake db:migrate # RAILS_ENV=production rake db:migrate
-
+* $ rake db:create
+* $ export APP_DATABASE_PASSWORD=mXkLTwuKRJ
+* $ rake db:migrate # RAILS_ENV=production rake db:migrate
+* $ rake assets:precompile
 
 
 
