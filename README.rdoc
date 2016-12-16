@@ -40,7 +40,7 @@ Please feel free to use a different markup language if you do not plan to run
 * $ rsync -r . root@<server-IP>:/home/rails/rails_project # copy local files to the server!
 
 * $ rake db:create
-* $ export APP_DATABASE_PASSWORD=mXkLTwuKRJ
+* $ export APP_DATABASE_PASSWORD=<password>
 * $ rake db:migrate # RAILS_ENV=production rake db:migrate
 * $ rake assets:precompile
 
