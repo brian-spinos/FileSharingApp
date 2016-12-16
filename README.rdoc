@@ -26,3 +26,37 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+
+
+
+
+== Instructions
+
+# Digital ocean
+
+# $ sudo service unicorn restart # restart rails
+
+# $ rsync -r . root@<server-IP>:/home/rails/rails_project # copy local files to the server!
+
+# $ rake db:create
+# $ export APP_DATABASE_PASSWORD=mXkLTwuKRJ
+# $ bundle exec rake db:migrate # RAILS_ENV=production rake db:migrate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
